@@ -41,3 +41,44 @@ hr {
     background-color: rgb(54, 53, 53);
     margin-bottom: 20px;
 }
+
+ul {
+	list-style: none;
+}
+
+#leftMain{
+	margin: auto;
+	width: 300px;
+
+}
+
+.navegacion{
+	background-color: #FFFFFF;
+	text-decoration: none;
+	width: 290px;
+	height: 450px;
+	font-size: 12px;
+}
+
+.navegacion li a{
+	color: darkgrey;
+	padding: 0px;
+
+}
+
+.navegacion li a:hover{
+	color: crimson;
+
+}
+
+
+.navegacion li ul{
+	display:none;
+
+}
+
+.navegacion li:hover > ul{
+	display: block;
+}
+
+
